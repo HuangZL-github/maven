@@ -32,7 +32,7 @@ public class PersonController {
 	public ResultModel test() {
 		long time = System.currentTimeMillis();
 		ResultModel<Object> resultModel = new ResultModel<>();
-		resultModel.setCode(200);
+		resultModel.setCode(300);
 		resultModel.setData(time);
 		return resultModel;
 	}
